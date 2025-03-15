@@ -24,6 +24,13 @@ class Home extends StatelessWidget {
             child: Column(
               children: [
                 HomeIconsWeather(),
+                Text('30',
+                style: TextStyle(
+                  fontSize: 100,
+                  fontWeight: FontWeight.w400,
+                  color: const Color.fromARGB(255, 220, 220, 220),
+                ),
+                )
               ],
             ),
           ),
